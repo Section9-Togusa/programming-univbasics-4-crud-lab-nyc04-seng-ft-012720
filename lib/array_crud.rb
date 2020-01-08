@@ -7,7 +7,9 @@ the_office = ["Dwight", "Micheal", "Jim", "Ryan"]
 end
 
 def add_element_to_end_of_array(array, element)
-
+array = ["Dwight", "Micheal", "Jim", "Ryan"]
+element = ["Dwight", "Micheal", "Jim", "Ryan"]
+add_element_to_end_of_array(array, element)
 end
 
 def add_element_to_start_of_array(array, element)
