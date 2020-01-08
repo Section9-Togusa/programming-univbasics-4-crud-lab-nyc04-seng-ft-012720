@@ -7,8 +7,7 @@ the_office = ["Dwight", "Micheal", "Jim", "Ryan"]
 end
 
 def add_element_to_end_of_array(array, element)
-array = ["Dwight", "Micheal", "Jim", "Ryan"]
-element = array.push("Andy")
+array << element
 end
 
 def add_element_to_start_of_array(array, element)
@@ -16,9 +15,7 @@ def add_element_to_start_of_array(array, element)
 end
 
 def remove_element_from_end_of_array(array)
-  array = ["Dwight", "Micheal", "Jim", "Ryan"]
-  array = array.pop
-  puts array
+
 end
 
 def remove_element_from_start_of_array(array)
