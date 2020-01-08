@@ -9,8 +9,6 @@ end
 def add_element_to_end_of_array(array, element)
 array = ["Dwight", "Micheal", "Jim", "Ryan"]
 element = array.push("Andy")
-p array
-p element
 end
 
 
